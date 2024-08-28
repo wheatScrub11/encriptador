@@ -1,0 +1,120 @@
+* {
+  background: #F3F5FC;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+
+html,
+body {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.main-container {
+    display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  gap: 5em;
+
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: space-between;
+}
+.m2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: space-between;
+
+}
+
+.txt-1 {
+  border: none;
+  text-transform: lowercase;
+  height: 80%;
+
+}
+::placeholder {
+  color: #052144;
+  .txt-1:focus {
+    outline: none;
+  }
+}
+header{
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+.logoimg{
+    height: 40px;
+    width: 30px;
+}
+.txt-2 {
+  background: white;
+  background-image: url("imgs/muñeco.png");
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0a3871;
+  margin-top: 20px;
+  padding-left: 20px;
+  height: 85%;
+    background-position: center;
+    width: 100%;
+}
+.txt-2:focus {
+  outline: none;
+}
+.botones {
+  display: flex;
+  
+}
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 258px;
+}
+
+.btn-desencriptar {
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  margin-left: 30px;
+  height: 50px;
+  width: 258px;
+}
+
+
+.btn-copy{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
