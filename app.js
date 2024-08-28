@@ -27,6 +27,11 @@ const desencriptar = (str) =>{
 }
 
 
+const copiarTexto = () =>{
+    
+    navigator.clipboard.writeText(mensaje.value)
+}
+
 
 
 const click_encriptar = () =>{
